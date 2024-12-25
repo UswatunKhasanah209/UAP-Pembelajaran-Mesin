@@ -548,11 +548,13 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
    - app.py : Berfungsi sebagai pengatur navigasi aplikasi 
    - home.py : Halaman utama dengan informasi umum
    - classification.py: Halaman untuk prediksi kategori sampah berdasarkan model yang dipilih (CNN/VGG).
-5. lalu menjalankan perintah ["pdm run start"](http://localhost:8501/)
+5. lalu menjalankan perintah "pdm run start"
 
 ---
 
-Berikut link Google colab : [UAP Machine Learning](https://colab.research.google.com/drive/1zPSyVg8ZvGocSFpxiTs5p3mxewrIpNiR?usp=sharing)
+Berikut Link :
+1. Google colab : [🐳 UAP Machine Learning](https://colab.research.google.com/drive/1zPSyVg8ZvGocSFpxiTs5p3mxewrIpNiR?usp=sharing)
+2. Web : [🐳 UAP Machine Learning](http://localhost:8501/)
 
 ---
 
