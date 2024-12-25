@@ -586,7 +586,7 @@ CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, men
 
 ---
 
-Author : [Uswatun Khasanah](https://github.com/UswatunKhasanah209) - 2021103670311209
+Author : [Uswatun Khasanah](https://github.com/UswatunKhasanah209) - 202110370311209
 
 
 
