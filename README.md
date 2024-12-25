@@ -566,6 +566,7 @@ Berikut link :
 Akurasi Keseluruhan :
 
 CNN: 97%
+
 VGG: 80%
 
 CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, menunjukkan bahwa CNN lebih efektif dalam mengklasifikasikan data pada dataset ini.
