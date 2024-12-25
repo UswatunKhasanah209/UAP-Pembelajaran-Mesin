@@ -568,7 +568,8 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 Akurasi Keseluruhan :
    - CNN: 97%
    - VGG: 80%
-   CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, menunjukkan bahwa CNN lebih efektif dalam mengklasifikasikan data pada dataset ini.
+
+CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, menunjukkan bahwa CNN lebih efektif dalam mengklasifikasikan data pada dataset ini.
 
 **CNN**
 - Kelas dengan Performa Tinggi: Banyak kelas memiliki skor sempurna (1.00) untuk precision, recall, dan F1-score, seperti clothing, coffee_grounds, eggshells, food_waste, dll.
