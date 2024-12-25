@@ -548,13 +548,42 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
    - app.py : Berfungsi sebagai pengatur navigasi aplikasi 
    - home.py : Halaman utama dengan informasi umum
    - classification.py: Halaman untuk prediksi kategori sampah berdasarkan model yang dipilih (CNN/VGG).
-5. lalu menjalankan perintah "pdm run start"
+5. lalu menjalankan perintah ["pdm run start"](http://localhost:8501/)
 
 ---
 
-🔥 **Hasil dan analisa**
+🔥 **Hasil dan analisis**
+
+   ✨ Hasil
+   
 1. Model CNN (_Convolutional Neural Network_)
-![image](https://github.com/user-attachments/assets/3faeaf7c-867e-43c0-8edc-e21db6738f2c)
+   ![image](https://github.com/user-attachments/assets/3faeaf7c-867e-43c0-8edc-e21db6738f2c)
+   ![image](https://github.com/user-attachments/assets/d1d0201b-c954-4e61-a60e-fe96df782470)
+2. Transfer Learning dengan VGG16(_Visual Geometry Group_)
+   ![image](https://github.com/user-attachments/assets/a117275c-ed55-49eb-945b-13b843b62fba)
+   ![image](https://github.com/user-attachments/assets/4ce9520e-612e-41b0-be88-cff758f5009a)
+
+   ✨ Analisis
+Akurasi Keseluruhan :
+   - CNN: 97%
+   - VGG: 80%
+   CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, menunjukkan bahwa CNN lebih efektif dalam mengklasifikasikan data pada dataset ini.
+
+**CNN**
+- Kelas dengan Performa Tinggi: Banyak kelas memiliki skor sempurna (1.00) untuk precision, recall, dan F1-score, seperti clothing, coffee_grounds, eggshells, food_waste, dll.
+- Kelas dengan Performa Rendah: Performa sedikit lebih rendah pada kelas seperti aluminum_food_cans (precision: 0.82, recall: 0.85).
+
+**VGG**
+- Kelas dengan Performa Tinggi: Kelas seperti plastic_detergent_bottles (precision: 0.96, recall: 0.88, F1-score: 0.92) memiliki performa yang baik.
+- Kelas dengan Performa Rendah: Kelas seperti steel_food_cans memiliki F1-score sangat rendah (0.37), menunjukkan kesulitan besar dalam mengklasifikasikan kelas ini.
+
+
+
+   
+
+
+
+
 
 
 
