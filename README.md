@@ -65,8 +65,6 @@ Berikut link :
 1. Model _Convolutional Neural Network_ (CNN)
    ![image](https://github.com/user-attachments/assets/50587e0e-1ca3-4089-87ee-6d34ded81667)
 
-3. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
-
    <!DOCTYPE html>
 <html>
 <head>
@@ -89,6 +87,256 @@ Berikut link :
 </head>
 <body>
     <h2>Classification Report</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Support</th>
+        </tr>
+        <tr>
+            <td>aerosol_cans</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>348</td>
+        </tr>
+        <tr>
+            <td>aluminum_food_cans</td>
+            <td>0.82</td>
+            <td>0.85</td>
+            <td>0.83</td>
+            <td>336</td>
+        </tr>
+        <tr>
+            <td>aluminum_soda_cans</td>
+            <td>0.97</td>
+            <td>0.99</td>
+            <td>0.98</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>cardboard_boxes</td>
+            <td>0.81</td>
+            <td>0.91</td>
+            <td>0.85</td>
+            <td>352</td>
+        </tr>
+        <tr>
+            <td>cardboard_packaging</td>
+            <td>0.90</td>
+            <td>0.77</td>
+            <td>0.83</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td>clothing</td>
+            <td>0.99</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>330</td>
+        </tr>
+        <tr>
+            <td>coffee_grounds</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>351</td>
+        </tr>
+        <tr>
+            <td>disposable_plastic_cutlery</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>eggshells</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>355</td>
+        </tr>
+        <tr>
+            <td>food_waste</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>glass_beverage_bottles</td>
+            <td>0.99</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>328</td>
+        </tr>
+        <tr>
+            <td>glass_cosmetic_containers</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>323</td>
+        </tr>
+        <tr>
+            <td>glass_food_jars</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>1.00</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>magazines</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>346</td>
+        </tr>
+        <tr>
+            <td>newspaper</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>1.00</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>office_paper</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>342</td>
+        </tr>
+        <tr>
+            <td>paper_cups</td>
+            <td>0.99</td>
+            <td>0.95</td>
+            <td>0.97</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>plastic_cup_lids</td>
+            <td>0.95</td>
+            <td>0.98</td>
+            <td>0.97</td>
+            <td>334</td>
+        </tr>
+        <tr>
+            <td>plastic_detergent_bottles</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>331</td>
+        </tr>
+        <tr>
+            <td>plastic_food_containers</td>
+            <td>0.98</td>
+            <td>0.98</td>
+            <td>0.98</td>
+            <td>337</td>
+        </tr>
+        <tr>
+            <td>plastic_shopping_bags</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>359</td>
+        </tr>
+        <tr>
+            <td>plastic_soda_bottles</td>
+            <td>0.98</td>
+            <td>0.96</td>
+            <td>0.97</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>plastic_straws</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>plastic_trash_bags</td>
+            <td>1.00</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>356</td>
+        </tr>
+        <tr>
+            <td>plastic_water_bottles</td>
+            <td>0.95</td>
+            <td>0.98</td>
+            <td>0.96</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>shoes</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>steel_food_cans</td>
+            <td>0.86</td>
+            <td>0.83</td>
+            <td>0.85</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td>styrofoam_cups</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>styrofoam_food_containers</td>
+            <td>0.97</td>
+            <td>1.00</td>
+            <td>0.98</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>tea_bags</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>339</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Accuracy</b></td>
+            <td>0.97</td>
+            <td>10219</td>
+        </tr>
+        <tr>
+            <td></td>Macro Avg</td>
+            <td>0.97</td>
+            <td>0.97</td>
+            <td>0.97</td>
+            <td>10219</td>
+        </tr>
+        <tr>
+            <td>Weighted Avg</td>
+            <td>0.97</td>
+            <td>0.97</td>
+            <td>0.97</td>
+            <td>10219</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+   ![image](https://github.com/user-attachments/assets/ab98f84c-94f9-4601-8e04-a47ab9b4fe53)
+
+3. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
+   ![image](https://github.com/user-attachments/assets/765775fc-5d05-4e9f-8e7a-23311e7f9d27)
+
+
+   <!DOCTYPE html>
+<html>
+<body>
     <table>
         <tr>
             <th>Class</th>
@@ -308,23 +556,29 @@ Berikut link :
             <td>339</td>
         </tr>
         <tr>
-            <td colspan="3"><b>Accuracy</b></td>
+            <td colspan="2"><b>Accuracy</b></td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
         <tr>
-            <td colspan="2"><b>Macro Avg</b></td>
+            <td>Macro Avg</td>
             <td>0.81</td>
             <td>0.80</td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
         <tr>
-            <td colspan="2"><b>Weighted Avg</b></td>
+            <td>b>Weighted Avg</td>
             <td>0.81</td>
             <td>0.80</td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
     </table>
 </body>
 </html>
+
+![image](https://github.com/user-attachments/assets/104b9ed1-b0bb-4596-b18a-c7462b26b43c)
+
 
 
