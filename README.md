@@ -30,7 +30,7 @@ Sampah adalah salah satu masalah terbesar yang dihadapi wilayah metropolitan di 
 2. Subset train, validation, dan test di-load menggunakan generator dengan ukuran target gambar 224x224 piksel.
 
 👽 Model
-1. _Convolutional Neural Network_ (CNN)
+1. Model _Convolutional Neural Network_ (CNN)
    - Dua lapisan Conv2D diikuti dengan MaxPooling2D.
    - Lapisan Flatten untuk mengubah data ke dimensi 1D.
    - Lapisan Dense dengan 128 neuron dan aktivasi relu.
@@ -57,7 +57,274 @@ Sampah adalah salah satu masalah terbesar yang dihadapi wilayah metropolitan di 
 Berikut link :
 1. Google Colab : [🐳 UAP MACHINE LEARNING](https://colab.research.google.com/drive/1zPSyVg8ZvGocSFpxiTs5p3mxewrIpNiR?usp=sharing)
 2. Web : [🐳 UAP MACHINE LEARNING](http://192.168.1.8:8501)
+3. Google drive : [🐳 UAP MACHINE LEARNING](https://drive.google.com/drive/folders/1p8jcJ2TTlqO-xUVYRwEVwsDc607Liu_f?usp=sharing)
 
 ---
+
+✨Hasil dan Analisis
+1. Model _Convolutional Neural Network_ (CNN)
+   ![image](https://github.com/user-attachments/assets/50587e0e-1ca3-4089-87ee-6d34ded81667)
+
+3. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
+
+   <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Classification Report</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Support</th>
+        </tr>
+        <tr>
+            <td>aerosol_cans</td>
+            <td>0.90</td>
+            <td>0.84</td>
+            <td>0.87</td>
+            <td>348</td>
+        </tr>
+        <tr>
+            <td>aluminum_food_cans</td>
+            <td>0.48</td>
+            <td>0.80</td>
+            <td>0.60</td>
+            <td>336</td>
+        </tr>
+        <tr>
+            <td>aluminum_soda_cans</td>
+            <td>0.69</td>
+            <td>0.87</td>
+            <td>0.77</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>cardboard_boxes</td>
+            <td>0.66</td>
+            <td>0.70</td>
+            <td>0.67</td>
+            <td>352</td>
+        </tr>
+        <tr>
+            <td>cardboard_packaging</td>
+            <td>0.66</td>
+            <td>0.56</td>
+            <td>0.61</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td>clothing</td>
+            <td>0.84</td>
+            <td>0.83</td>
+            <td>0.83</td>
+            <td>330</td>
+        </tr>
+        <tr>
+            <td>coffee_grounds</td>
+            <td>0.89</td>
+            <td>0.91</td>
+            <td>0.90</td>
+            <td>351</td>
+        </tr>
+        <tr>
+            <td>disposable_plastic_cutlery</td>
+            <td>0.93</td>
+            <td>0.91</td>
+            <td>0.92</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>eggshells</td>
+            <td>0.87</td>
+            <td>0.90</td>
+            <td>0.88</td>
+            <td>355</td>
+        </tr>
+        <tr>
+            <td>food_waste</td>
+            <td>0.73</td>
+            <td>0.94</td>
+            <td>0.82</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>glass_beverage_bottles</td>
+            <td>0.89</td>
+            <td>0.79</td>
+            <td>0.84</td>
+            <td>328</td>
+        </tr>
+        <tr>
+            <td>glass_cosmetic_containers</td>
+            <td>0.88</td>
+            <td>0.74</td>
+            <td>0.81</td>
+            <td>323</td>
+        </tr>
+        <tr>
+            <td>glass_food_jars</td>
+            <td>0.87</td>
+            <td>0.87</td>
+            <td>0.87</td>
+            <td>340</td>
+        </tr>
+        <tr>
+            <td>magazines</td>
+            <td>0.93</td>
+            <td>0.90</td>
+            <td>0.92</td>
+            <td>346</td>
+        </tr>
+        <tr>
+            <td>newspaper</td>
+            <td>0.82</td>
+            <td>0.80</td>
+            <td>0.81</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>office_paper</td>
+            <td>0.67</td>
+            <td>0.77</td>
+            <td>0.71</td>
+            <td>342</td>
+        </tr>
+        <tr>
+            <td>paper_cups</td>
+            <td>0.82</td>
+            <td>0.69</td>
+            <td>0.75</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>plastic_cup_lids</td>
+            <td>0.84</td>
+            <td>0.74</td>
+            <td>0.79</td>
+            <td>334</td>
+        </tr>
+        <tr>
+            <td>plastic_detergent_bottles</td>
+            <td>0.96</td>
+            <td>0.88</td>
+            <td>0.92</td>
+            <td>331</td>
+        </tr>
+        <tr>
+            <td>plastic_food_containers</td>
+            <td>0.83</td>
+            <td>0.78</td>
+            <td>0.81</td>
+            <td>337</td>
+        </tr>
+        <tr>
+            <td>plastic_shopping_bags</td>
+            <td>0.85</td>
+            <td>0.80</td>
+            <td>0.83</td>
+            <td>359</td>
+        </tr>
+        <tr>
+            <td>plastic_soda_bottles</td>
+            <td>0.75</td>
+            <td>0.77</td>
+            <td>0.76</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>plastic_straws</td>
+            <td>0.94</td>
+            <td>0.88</td>
+            <td>0.91</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>plastic_trash_bags</td>
+            <td>0.94</td>
+            <td>0.82</td>
+            <td>0.88</td>
+            <td>356</td>
+        </tr>
+        <tr>
+            <td>plastic_water_bottles</td>
+            <td>0.78</td>
+            <td>0.79</td>
+            <td>0.79</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>shoes</td>
+            <td>0.97</td>
+            <td>0.88</td>
+            <td>0.92</td>
+            <td>338</td>
+        </tr>
+        <tr>
+            <td>steel_food_cans</td>
+            <td>0.72</td>
+            <td>0.25</td>
+            <td>0.37</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td>styrofoam_cups</td>
+            <td>0.75</td>
+            <td>0.86</td>
+            <td>0.80</td>
+            <td>341</td>
+        </tr>
+        <tr>
+            <td>styrofoam_food_containers</td>
+            <td>0.75</td>
+            <td>0.90</td>
+            <td>0.82</td>
+            <td>343</td>
+        </tr>
+        <tr>
+            <td>tea_bags</td>
+            <td>0.72</td>
+            <td>0.78</td>
+            <td>0.75</td>
+            <td>339</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Accuracy</b></td>
+            <td>0.80</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Macro Avg</b></td>
+            <td>0.81</td>
+            <td>0.80</td>
+            <td>0.80</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Weighted Avg</b></td>
+            <td>0.81</td>
+            <td>0.80</td>
+            <td>0.80</td>
+        </tr>
+    </table>
+</body>
+</html>
 
 
