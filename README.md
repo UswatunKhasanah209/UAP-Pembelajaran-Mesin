@@ -312,7 +312,7 @@ Berikut link :
 
 ![image](https://github.com/user-attachments/assets/ab98f84c-94f9-4601-8e04-a47ab9b4fe53)
 
-3. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
+2. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
 ![image](https://github.com/user-attachments/assets/765775fc-5d05-4e9f-8e7a-23311e7f9d27)
 
 
