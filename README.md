@@ -293,7 +293,7 @@ Berikut link :
             <td>10219</td>
         </tr>
         <tr>
-            <td></td>Macro Avg</td>
+            <td>Macro Avg</td>
             <td>0.97</td>
             <td>0.97</td>
             <td>0.97</td>
@@ -551,7 +551,7 @@ Berikut link :
             <td>10219</td>
         </tr>
         <tr>
-            <td>b>Weighted Avg</td>
+            <td>Weighted Avg</td>
             <td>0.81</td>
             <td>0.80</td>
             <td>0.80</td>
