@@ -541,7 +541,7 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 ---
 
 👽 **Aplikasi Web**
-1. Install [PDM](Invoke-WebRequest -Uri https://pdm-project.org/install-pdm.py -UseBasicParsing).Content | python -) pada powershell
+1. Install PDM pada powershell
 2. Masukkan perintah "pdm init"
 3. Install bberapa Pustaka seperti : Streamlit, Tensorflow, Joblib dan Scikit-learn
 4. Membuat file :
