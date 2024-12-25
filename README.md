@@ -550,20 +550,25 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
             <td>339</td>
         </tr>
         <tr>
-            <td colspan="4"><b>Accuracy</b></td>
+            <td>accuracy</td>
+            <td> </td>
+            <td> </td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
-        <tr>
-            <td colspan="2"><b>Macro Avg</b></td>
+       <tr>
+            <td>macro avg</td>
             <td>0.81</td>
             <td>0.80</td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
-        <tr>
-            <td colspan="2"><b>Weighted Avg</b></td>
+       <tr>
+            <td>weighted avg</td>
             <td>0.81</td>
             <td>0.80</td>
             <td>0.80</td>
+            <td>10219</td>
         </tr>
     </table>
 </body>
