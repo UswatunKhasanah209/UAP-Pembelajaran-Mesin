@@ -47,24 +47,6 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 1. Model CNN (_Convolutional Neural Network_)
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
 <body>
     <h2>Classification Report </h2>
     <table>
@@ -313,24 +295,6 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 2. Transfer Learning dengan VGG16(_Visual Geometry Group_)
    <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
 <body>
     <h2>Classification Report</h2>
     <table>
@@ -575,3 +539,14 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
     </table>
 </body>
 </html>
+
+---
+
+👽 **Aplikasi Web**
+1. Install [PDM](Invoke-WebRequest -Uri https://pdm-project.org/install-pdm.py -UseBasicParsing).Content | python -) pada powershell
+2. Masukkan perintah "pdm init"
+3. Install bberapa Pustaka seperti : Streamlit, Tensorflow, Joblib dan Scikit-learn
+4. Membuat file :
+   - app.py : Berfungsi sebagai pengatur navigasi aplikasi 
+   - home.py : Halaman utama dengan informasi umum
+   - classification.py: Halaman untuk prediksi kategori sampah berdasarkan model yang dipilih (CNN/VGG).
