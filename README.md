@@ -552,6 +552,11 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 
 ---
 
+Berikut link Google colab : [UAP Machine Learning](https://colab.research.google.com/drive/1zPSyVg8ZvGocSFpxiTs5p3mxewrIpNiR?usp=sharing)
+
+---
+
+
 🔥 **Hasil dan analisis**
 
    ✨ Hasil
