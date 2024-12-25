@@ -15,6 +15,8 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 ---
 
 🌱 **Langkah Instalasi**
+
 👽 Pengambilan dataset [Recyclable and Household Waste Classification](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification) dari kaggle
+
 👽
 
