@@ -66,7 +66,7 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
     </style>
 </head>
 <body>
-    <h2>Classification Report 1</h2>
+    <h2>Classification Report </h2>
     <table>
         <tr>
             <th>Class</th>
@@ -307,6 +307,8 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
             <td>10219</td>
         </tr>
     </table>
+ </body>
+</html>  
 
 2. Transfer Learning dengan VGG16(_Visual Geometry Group_)
    <!DOCTYPE html>
