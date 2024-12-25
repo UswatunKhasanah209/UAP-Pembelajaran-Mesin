@@ -63,28 +63,10 @@ Berikut link :
 
 ✨Hasil dan Analisis
 1. Model _Convolutional Neural Network_ (CNN)
-   ![image](https://github.com/user-attachments/assets/50587e0e-1ca3-4089-87ee-6d34ded81667)
+![image](https://github.com/user-attachments/assets/50587e0e-1ca3-4089-87ee-6d34ded81667)
 
    <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
 <body>
     <h2>Classification Report</h2>
     <table>
@@ -328,15 +310,16 @@ Berikut link :
 </body>
 </html>
 
-   ![image](https://github.com/user-attachments/assets/ab98f84c-94f9-4601-8e04-a47ab9b4fe53)
+![image](https://github.com/user-attachments/assets/ab98f84c-94f9-4601-8e04-a47ab9b4fe53)
 
 3. Transfer Learning dengan _Visual Geometry Group_ (VGG16)
-   ![image](https://github.com/user-attachments/assets/765775fc-5d05-4e9f-8e7a-23311e7f9d27)
+![image](https://github.com/user-attachments/assets/765775fc-5d05-4e9f-8e7a-23311e7f9d27)
 
 
    <!DOCTYPE html>
 <html>
 <body>
+   <h2>Classification Report</h2>
     <table>
         <tr>
             <th>Class</th>
@@ -579,6 +562,32 @@ Berikut link :
 </html>
 
 ![image](https://github.com/user-attachments/assets/104b9ed1-b0bb-4596-b18a-c7462b26b43c)
+
+Akurasi Keseluruhan :
+
+CNN: 97%
+VGG: 80%
+
+CNN menunjukkan akurasi keseluruhan yang jauh lebih tinggi dibandingkan VGG, menunjukkan bahwa CNN lebih efektif dalam mengklasifikasikan data pada dataset ini.
+
+**CNN**
+- Kelas dengan Performa Tinggi: Banyak kelas memiliki skor sempurna (1.00) untuk precision, recall, dan F1-score, seperti clothing, coffee_grounds, eggshells, food_waste, dll.
+- Kelas dengan Performa Rendah: Performa sedikit lebih rendah pada kelas seperti aluminum_food_cans (precision: 0.82, recall: 0.85).
+
+**VGG**
+- Kelas dengan Performa Tinggi: Kelas seperti plastic_detergent_bottles (precision: 0.96, recall: 0.88, F1-score: 0.92) memiliki performa yang baik.
+- Kelas dengan Performa Rendah: Kelas seperti steel_food_cans memiliki F1-score sangat rendah (0.37), menunjukkan kesulitan besar dalam mengklasifikasikan kelas ini.
+
+---
+
+🐣 **Kesimpulan**
+   - CNN secara signifikan lebih baik daripada VGG di hampir semua metrik, baik secara keseluruhan maupun per kelas.
+   - CNN memiliki performa lebih stabil dan presisi tinggi, yang membuatnya lebih cocok untuk dataset ini.
+   - VGG memiliki kelemahan signifikan pada beberapa kelas, seperti steel_food_cans, yang mempengaruhi akurasi keseluruhan.
+
+---
+
+
 
 
 
