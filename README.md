@@ -48,7 +48,6 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
 <!DOCTYPE html>
 <html>
 <body>
-    <h2>Classification Report </h2>
     <table>
         <tr>
             <th>Class</th>
@@ -296,7 +295,6 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
    <!DOCTYPE html>
 <html>
 <body>
-    <h2>Classification Report</h2>
     <table>
         <tr>
             <th>Class</th>
@@ -550,3 +548,15 @@ Sampah merupakan salah satu masalah lingkungan yang semakin mendesak, terutama d
    - app.py : Berfungsi sebagai pengatur navigasi aplikasi 
    - home.py : Halaman utama dengan informasi umum
    - classification.py: Halaman untuk prediksi kategori sampah berdasarkan model yang dipilih (CNN/VGG).
+5. lalu menjalankan perintah "pdm run start"
+
+---
+
+🔥 **Hasil dan analisa**
+1. Model CNN (_Convolutional Neural Network_)
+![image](https://github.com/user-attachments/assets/3faeaf7c-867e-43c0-8edc-e21db6738f2c)
+
+
+
+
+
