@@ -4,7 +4,7 @@
 
 💸 **Latar Belakang**
 
-Sampah adalah salah satu masalah terbesar yang dihadapi wilayah metropolitan di era modern ini. Produksi sampah meningkat setiap tahunnya sebagai akibat dari pertambahan populasi dan peningkatan konsumsi. Sayangnya, pengelolaan sampah yang buruk sering kali menyebabkan kerusakan ekosistem, degradasi lingkungan, dan bahkan risiko kesehatan bagi manusia. Namun, dengan menggunakan algoritma deep learning, sistem dapat dilatih untuk mengenali dan mengklasifikasikan berbagai jenis sampah secara otomatis. Hal ini tidak hanya meningkatkan efisiensi dalam proses pemilahan tetapi juga mengurangi kesalahan manusia yang sering terjadi dalam pemilahan manual.
+Sampah adalah salah satu masalah terbesar yang dihadapi wilayah perkotaan di era modern ini. Produksi sampah meningkat setiap tahunnya sebagai akibat dari pertambahan populasi dan peningkatan konsumsi. Sayangnya, pengelolaan sampah yang buruk sering kali menyebabkan kerusakan ekosistem, degradasi lingkungan, dan bahkan risiko kesehatan bagi manusia. Namun, dengan menggunakan algoritma deep learning, sistem dapat dilatih untuk mengenali dan mengklasifikasikan berbagai jenis sampah secara otomatis. Hal ini tidak hanya meningkatkan efisiensi dalam proses pemilahan tetapi juga mengurangi kesalahan manusia yang sering terjadi dalam pemilahan manual.
 
 ---
 
